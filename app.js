@@ -1,4 +1,5 @@
 "use strict";
-let a = 5;
-console.log(a);
-console.log("a");
+function test() {
+    const obj = document.getElementById("txt");
+    obj.innerHTML = "Test after the Click";
+}
