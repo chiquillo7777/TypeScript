@@ -1,0 +1,31 @@
+¡Claro! Aquí tienes el contenido que debería tener tu archivo .gitignore para un proyecto de TypeScript, incluyendo los archivos y directorios más comunes que se deben ignorar:
+
+# Directorios de compilación
+dist/
+build/
+
+# Archivos generados por el compilador
+*.js
+*.js.map
+
+# Dependencias
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Configuración del IDE
+.vscode/
+.idea/
+
+# Archivos de registro y variables de entorno
+*.log
+*.env
+.env.*
+
+# Informes de cobertura de pruebas
+coverage/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
